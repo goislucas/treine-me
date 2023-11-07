@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    min-height: 100vh;
+}
+
+.page {
+    width: 1008px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 65px 0 35px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+nav img {
+    width: 104px;
+    height: 26px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    opacity: 0.5;
+}
+
+li a:hover {
+    opacity: 1;
+    font-weight: bold;
+}
+
+a {
+    color: #1F1534;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 82px;
+}
+
+section {
+    margin-right: 100px;
+}
+
+section h1 {
+    font-size: 49px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: lighter;
+    color: #1F1534;
+    margin-bottom: 40px;
+}
+
+section h1 span {
+    color: #89C5CC;
+}
+
+section p {
+    margin-bottom: 40px;
+    color: #7D7987;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main img {
+    width: 418px;
+    height: 434px;
+}
+
+
+button {
+    background: #69B99D;
+    width: 182px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1F1534;
+}
+
+button img {
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+/* 
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
